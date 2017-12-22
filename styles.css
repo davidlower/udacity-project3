@@ -1,0 +1,77 @@
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   color: #fff;
+
+   font-family: 'Raleway', sans-serif;
+   font-weight: 100;
+}
+
+/* body {
+   width: 960px;
+} */
+
+.container {
+   position: relative;
+   /* z-index: 0; */
+   background-image: url("udacity-banner 3.jpg");
+   background-size: cover;
+}
+
+.blur-container {
+   position: absolute;
+   /* z-index: 1; */
+   width: 33%;
+   height: 450px;
+
+   background-image: url("udacity-banner 3.jpg");
+   background-size: cover;
+
+   filter: blur(7px);
+}
+
+.info-container {
+   position: relative;
+   /* z-index: 2; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 33%;
+   height: 450px;
+
+   text-align: center;
+
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.info-container-2 {
+   background-color: rgba(0, 0, 0, 0.59);
+}
+
+.info-container p {
+   padding: 10px 40px;
+}
+
+h1 {
+   padding: 10px 0;
+
+   font-weight: 100;
+}
+
+span {
+   font-weight: 600;
+}
+
+.blank {
+   height: 100px;
+}
+
+.text {
+   color: black;
+}
