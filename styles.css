@@ -17,10 +17,9 @@ html {
    position: relative;
 
    overflow: hidden;
-
    width: 80%;
    max-width: 1400px;
-   height: 350px;
+   height: 100%;
    margin: 50px auto;
 
    background-image: url("udacity-banner 5.jpg");
@@ -28,29 +27,24 @@ html {
 }
 
 .container-2 {
-   height: 350px;
-
    background-image: url("udacity-banner 3.jpg");
 }
 
 .blur-container {
    position: absolute;
-   bottom: -10px;
-   left: -10px;
+   overflow: hidden;
 
-   width: calc(33% + 10px);
+   width: 100%;
    max-width: 400px;
-   height: calc(100% + 10px);
-
+   height: 100%;
    background-image: url("udacity-banner 5.jpg");
    background-size: cover;
 
+   -webkit-filter: blur(7px);
    filter: blur(7px);
 }
 
 .blur-container-2 {
-   height: 350px;
-
    background-image: url("udacity-banner 3.jpg");
 }
 
