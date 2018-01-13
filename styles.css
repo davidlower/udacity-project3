@@ -34,7 +34,7 @@ html {
    position: absolute;
    overflow: hidden;
 
-   width: 100%;
+   width: 33%;
    max-width: 400px;
    height: 100%;
    background-image: url("udacity-banner 5.jpg");
@@ -66,6 +66,8 @@ html {
 
 .info-container img {
    padding: 20px;
+   width: 175px;
+   height: auto;
 }
 
 h1 {
@@ -90,4 +92,31 @@ h1 span {
 
 .text-2 {
    color: #faff16;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 1200px) {
+   .info-container img {
+      width: 160px;
+      height: auto;
+   }
+
+   html {
+      font-size: 12px;
+   }
+
+   .blur-container, .info-container {
+      width: 300px;
+   }
+
+   .container {
+      height: 320px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+   .container {
+      width: 300px;
+   }
 }
