@@ -40,10 +40,11 @@ html {
    height: calc(350px + 16px);
 
    background-image: url("udacity-banner 5.jpg");
+   background-position: -4px -4px;
    background-size: cover;
 
-   -webkit-clip-path: inset(0 2.5% 0 0);
-   clip-path: inset(0 2.5% 0 0);
+   -webkit-clip-path: inset(0 2% 0 0);
+   clip-path: inset(0 2% 0 0);
    -webkit-filter: blur(7px);
    filter: blur(7px);
 }
@@ -111,7 +112,7 @@ h1 span {
 
    .blur-container {
       width: calc(300px + 16px);
-      height: calc(320 + 16px);
+      height: calc(320px + 16px);
    }
 
    .info-container {
