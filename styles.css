@@ -43,8 +43,8 @@ html {
    background-position: -4px -4px;
    background-size: cover;
 
-   -webkit-clip-path: inset(0 2% 0 0);
-   clip-path: inset(0 2% 0 0);
+   -webkit-clip-path: inset(0 2.5% 0 0);
+   clip-path: inset(0 2.5% 0 0);
    -webkit-filter: blur(7px);
    filter: blur(7px);
 }
